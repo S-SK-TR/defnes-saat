@@ -31,7 +31,7 @@
   ],
   "author": "Defne",
   "license": "MIT",
-  "homepage": "https://github.com/S-SK-TR/defnes-saat",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
