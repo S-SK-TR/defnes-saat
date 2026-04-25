@@ -31,7 +31,6 @@
   ],
   "author": "Defne",
   "license": "MIT",
-  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
