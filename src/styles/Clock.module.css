@@ -1,0 +1,102 @@
+.analogClock {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.clockFace {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid #333;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hourHand {
+  position: absolute;
+  width: 6px;
+  height: 50px;
+  background-color: #333;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 100%;
+  transform: translateX(-50%);
+  border-radius: 3px;
+  transition: transform 0.5s ease;
+}
+
+.minuteHand {
+  position: absolute;
+  width: 4px;
+  height: 70px;
+  background-color: #666;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 100%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  transition: transform 0.5s ease;
+}
+
+.secondHand {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  background-color: #ff4444;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 100%;
+  transform: translateX(-50%);
+  border-radius: 1px;
+  transition: transform 0.5s ease;
+}
+
+.digitalClock {
+  font-size: 2rem;
+  font-family: monospace;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.controlPanel {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.newTimeButton {
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.newTimeButton:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.practiceButton {
+  padding: 12px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.practiceButton:hover {
+  background-color: #0b7dda;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
